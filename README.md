@@ -33,13 +33,13 @@ The goal is to be the definitive place to discover on-demand, reserved, and serv
 Hyperscale clouds with managed GPU instances for training, inference, and HPC.
 
 - **[AWS EC2 Accelerated Computing](https://aws.amazon.com/ec2/instance-types/accelerated-computing/)** `Official` — P5/P5e (H100/H200), P4d (A100), G6e (L40S), and Trn/Inf accelerators with EFA networking and UltraClusters.
- - Pricing: on-demand, spot, reserved, and capacity blocks.
+  - Pricing: on-demand, spot, reserved, and capacity blocks.
 - **[Google Cloud GPU Instances](https://cloud.google.com/compute/docs/gpus)** `Official` — A3 (H100), A3 Ultra (H200), A4 (B200), A4X (GB200), G2 (L4), and G4 (RTX PRO 6000) machine types.
- - Tight integration with Vertex AI, GKE, and TPUs.
+  - Tight integration with Vertex AI, GKE, and TPUs.
 - **[Azure NC/ND GPU Virtual Machines](https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/gpu-accelerated/)** `Official` — NCads H100 v5, ND H100 v5, NC A100 v4, and NVads A10 v5 series with InfiniBand options.
- - Strong fit for Windows/Linux workstations and Azure ML training jobs.
+  - Strong fit for Windows/Linux workstations and Azure ML training jobs.
 - **[Oracle Cloud Infrastructure GPU](https://www.oracle.com/cloud/compute/gpu/)** `Official` — Bare-metal and VM instances with H100, H200, A100, L40S, and AMD MI300X GPUs; RDMA cluster networking.
- - Often priced below AWS/GCP/Azure for equivalent shapes; free egress tiers.
+  - Often priced below AWS/GCP/Azure for equivalent shapes; free egress tiers.
 - **[IBM Cloud GPU](https://www.ibm.com/cloud/gpu)** `Official` — NVIDIA H100 and A100 instances for AI training, inference, and VDI workloads.
 - **[Alibaba Cloud GPU](https://www.alibabacloud.com/product/gpu)** `Official` — GN7 (A10), GN10e (V100), and GPU-accelerated ECS instances for AI and rendering in Asia-Pacific.
 
@@ -50,14 +50,14 @@ Hyperscale clouds with managed GPU instances for training, inference, and HPC.
 Platforms that abstract away infrastructure and scale GPU workloads to zero.
 
 - **[Modal](https://modal.com/)** `Official` — Serverless GPU functions with a Python SDK; deploy inference, training, and batch jobs on L40S, A100, and H100.
- - Pricing: per-second billing; H100 from ~$3.95/hr, L40S from ~$1.95/hr.
+  - Pricing: per-second billing; H100 from ~$3.95/hr, L40S from ~$1.95/hr.
 - **[RunPod Serverless](https://www.runpod.io/serverless-gpu)** `Official` — Autoscaling GPU endpoints with FlashBoot; supports 30+ GPU types from RTX 4090 to H200.
- - Pricing: billed by the millisecond; H100 from ~$1.99/hr on Community Cloud.
+  - Pricing: billed by the millisecond; H100 from ~$1.99/hr on Community Cloud.
 - **[Baseten](https://www.baseten.co/)** `Official` — Model-serving platform with low-latency inference, async workers, and the open-source Truss packaging framework.
 - **[Replicate](https://replicate.com/)** `Official` — Run and deploy open-source ML models as scalable APIs; supports custom models and a large public model zoo.
 - **[Fal](https://fal.ai/)** `Official` — Generative-media inference engine optimized for diffusion and real-time image/video workloads.
 - **[Koyeb](https://www.koyeb.com/)** `Official` — Serverless cloud with global GPU deployment and scale-to-zero; supports H100, A100, and Tenstorrent accelerators.
- - Pricing: A100 ~$2/hr, H100 ~$3.30/hr.
+  - Pricing: A100 ~$2/hr, H100 ~$3.30/hr.
 - **[Novita AI](https://novita.ai/)** `Official` — GPU cloud and serverless inference with 200+ ready-to-use models and on-demand GPU instances.
 - **[Google Cloud Run GPUs](https://cloud.google.com/run)** `Official` — Serverless container platform with NVIDIA L4 GPU support and request-driven or job-based GPU workloads.
 - **[Cerebrium](https://www.cerebrium.ai/)** `Official` — Serverless GPU platform for AI inference and training with infrastructure-as-code and fast cold starts.
@@ -70,9 +70,9 @@ Platforms that abstract away infrastructure and scale GPU workloads to zero.
 Aggregators and peer-to-peer marketplaces for finding GPU capacity across providers.
 
 - **[Vast.ai](https://vast.ai/)** `Community` / `Marketplace` — Peer-to-peer GPU marketplace with 20,000+ GPUs; on-demand, interruptible, and reserved pricing.
- - Pricing: RTX 4090 from ~$0.27/hr, A100 80GB from ~$0.70/hr.
+  - Pricing: RTX 4090 from ~$0.27/hr, A100 80GB from ~$0.70/hr.
 - **[TensorDock](https://www.tensordock.com/)** `Community` / `Marketplace` — Marketplace of independent hosts offering H100, A100, RTX 4090, and more across 100+ locations.
- - Pricing: H100 from ~$2.20/hr; no quotas or long-term contracts.
+  - Pricing: H100 from ~$2.20/hr; no quotas or long-term contracts.
 - **[Shadeform](https://shadeform.com/)** `Community` / `Marketplace` — GPU cloud marketplace deploying across 30+ clouds with one console, API, and bill.
 - **[Prime Intellect](https://www.primeintellect.ai/)** `Community` — Decentralized compute exchange aggregating 12+ providers for distributed training and inference.
 - **[GPUFindr](https://gpufindr.com/)** `Community` — Live price comparison across CoreWeave, Lambda, RunPod, Vast.ai, and other GPU clouds; free API and MCP server.
@@ -100,15 +100,15 @@ Managed Kubernetes services and schedulers purpose-built for GPU workloads.
 Low-cost options that prioritize price-per-FLOP, often using consumer GPUs.
 
 - **[Vast.ai](https://vast.ai/)** `Community` — Marketplace with consumer RTX 3090/4090 and data-center GPUs at market-driven prices.
- - Pricing: RTX 3090 from ~$0.07/hr, RTX 4090 from ~$0.27/hr.
+  - Pricing: RTX 3090 from ~$0.07/hr, RTX 4090 from ~$0.27/hr.
 - **[SaladCloud](https://salad.com/)** `Community` — Distributed cloud using consumer gaming GPUs across 450,000+ providers.
- - Pricing: RTX 4090 from ~$0.16/hr, H100 from ~$0.99/hr.
+  - Pricing: RTX 4090 from ~$0.16/hr, H100 from ~$0.99/hr.
 - **[JarvisLabs](https://jarvislabs.ai/)** `Community` — Per-minute billing GPU cloud for individual developers and small teams.
- - Pricing: RTX 3090 from ~$0.29/hr, H100 from ~$2.69/hr.
+  - Pricing: RTX 3090 from ~$0.29/hr, H100 from ~$2.69/hr.
 - **[Paperspace](https://www.paperspace.com/)** `Official` — Managed GPU notebooks and instances from RTX 4090 to A100/H100.
 - **[TensorDock](https://www.tensordock.com/)** `Community` — Marketplace with consumer and data-center GPUs; full VM control.
 - **[DataCrunch / Verda](https://datacrunch.io/)** `Official` — Low-cost GPU instances and clusters in Iceland/Finland.
- - Pricing: H100 from ~$2.29/hr.
+  - Pricing: H100 from ~$2.29/hr.
 - **[Hyperstack](https://www.hyperstack.cloud/)** `Official` — EU-focused GPU cloud with H100, A100, and L40S instances; 100% renewable energy.
 
 ---
@@ -118,9 +118,9 @@ Low-cost options that prioritize price-per-FLOP, often using consumer GPUs.
 GPU-first clouds built for large-scale training, HPC, and production AI at scale.
 
 - **[CoreWeave](https://www.coreweave.com/)** `Official` — AI hyperscaler with Kubernetes-native H100/H200/B200/GB200/GB300 clusters and InfiniBand.
- - Customers include OpenAI, Mistral AI, and Jane Street.
+  - Customers include OpenAI, Mistral AI, and Jane Street.
 - **[Lambda](https://lambda.ai/)** `Official` — GPU cloud and superclusters for AI training/inference; 1-Click Clusters and Lambda Stack.
- - Pricing: H100 SXM from ~$3.29/hr, A100 SXM from ~$1.29/hr.
+  - Pricing: H100 SXM from ~$3.29/hr, A100 SXM from ~$1.29/hr.
 - **[NVIDIA DGX Cloud](https://www.nvidia.com/en-us/data-center/dgx-cloud/)** `Official` — AI supercomputing-as-a-service with DGX systems, NIM/NeMo, and NVIDIA Cloud Partners.
 - **[NVIDIA DGX Cloud Lepton](https://www.nvidia.com/en-us/data-center/dgx-cloud-lepton/)** `Official` — Compute marketplace connecting developers to tens of thousands of GPUs across global cloud partners.
 - **[FluidStack](https://www.fluidstack.io/)** `Official` — Exascale GPU clusters for frontier AI training, deployed in 48 hours across global data centers.
